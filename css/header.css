@@ -1,0 +1,23 @@
+.header{
+    width: 577px;
+    height: 148px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    top:151px;
+    left:64px;
+    /* or 123% */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}

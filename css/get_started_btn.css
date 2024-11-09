@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoMono/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.get-started-btn{
+    flex-direction: row;
+
+    gap: 10px;
+
+    width: 258px;
+    height: 66px;
+
+    background: #333333;
+    border-radius: 40px;
+
+    top:491px;
+    left:64px;
+
+    display: inline-block;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    font-family: 'Roboto', sans-serif; /* Задаёт шрифт */
+    font-size: 22px;
+    color: white;
+}
