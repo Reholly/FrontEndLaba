@@ -1,8 +1,7 @@
-
-
 .top-info-block{
     display: flex;
     flex-direction: row;
+    height: 436px;
 }
 
 .top-info-block_all-text{
@@ -15,7 +14,6 @@
     width: 577px;
     height: 148px;
 
-    font-family: Roboto, sans-serif;
     font-size: 60px;
 
     font-style: normal;
@@ -28,7 +26,6 @@
     width: 497px;
     height: 128px;
 
-    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -36,7 +33,6 @@
 
     color: #333333;
 }
-
 
 .top-info-block_button {
     gap: 10px;
@@ -50,7 +46,6 @@
     display: inline-block;
     align-items: center;
     justify-content: center;
-    font-family: Roboto, sans-serif;
     font-size: 22px;
     color: white;
 }

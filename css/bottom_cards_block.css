@@ -1,9 +1,9 @@
 .bottom-cards-block{
-    margin-top: 149px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1311px;
+    margin-top: 149px;
 }
 
 .card {
@@ -28,8 +28,8 @@
 
 .card-icon {
     position: relative;
-    top: -24px;
-    right: -23px; /* сделано так, потому что почему-то съезжает. по пикселям точь в точь */
+    bottom: 24px;
+    left: 12px; /* сделано так, потому что почему-то съезжает. по пикселям точь в точь */
     width: 32px;
     height: 32px;
     display: flex;
