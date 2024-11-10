@@ -1,0 +1,72 @@
+.bottom-cards-block{
+    margin-top: 149px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1311px;
+}
+
+.card {
+    border-radius: 12px; /* Закругление углов */
+    width: 241px; /* Ширина карточки */
+    height: 222px;
+    padding: 16px 34px 16px 34px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between; /* Выравнивание содержимого в заголовке */
+    align-items: center; /* Вертикальное выравнивание */
+}
+
+.card-number {
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-icon {
+    position: relative;
+    top: -24px;
+    right: -23px; /* сделано так, потому что почему-то съезжает. по пикселям точь в точь */
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icon img {
+    max-width: 100%; /* Ограничение максимальной ширины иконки */
+}
+
+.card-title {
+    margin-top: 16px; /* Отступы сверху и снизу */
+    font-family: Roboto, sans-serif;
+    font-size: 32px; /* Размер шрифта заголовка */
+}
+
+.card-text {
+    width: 241px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px; /* Размер шрифта текста */
+    color: #333; /* Цвет текста */
+    margin-top: -16px;
+}
+
+.card-first-bg {
+    background-color: #F1C2B0;
+}
+
+.card-second-bg {
+    background-color: #F9EB98;
+}
+
+.card-third-bg {
+    background-color: #C0D9DD;
+}
+
+.card-fourth-bg {
+    background-color: #6975E8;
+}
