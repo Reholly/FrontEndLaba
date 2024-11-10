@@ -7,16 +7,16 @@
 }
 
 .card {
-    border-radius: 12px; /* Закругление углов */
-    width: 241px; /* Ширина карточки */
+    border-radius: 12px;
+    width: 241px;
     height: 222px;
     padding: 16px 34px 16px 34px;
 }
 
 .card-header {
     display: flex;
-    justify-content: space-between; /* Выравнивание содержимого в заголовке */
-    align-items: center; /* Вертикальное выравнивание */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card-number {
@@ -38,20 +38,20 @@
 }
 
 .card-icon img {
-    max-width: 100%; /* Ограничение максимальной ширины иконки */
+    max-width: 100%;
 }
 
 .card-title {
-    margin-top: 16px; /* Отступы сверху и снизу */
+    margin-top: 16px;
     font-family: Roboto, sans-serif;
-    font-size: 32px; /* Размер шрифта заголовка */
+    font-size: 32px;
 }
 
 .card-text {
     width: 241px;
     font-family: Roboto, sans-serif;
-    font-size: 18px; /* Размер шрифта текста */
-    color: #333; /* Цвет текста */
+    font-size: 18px;
+    color: #333;
     margin-top: -16px;
 }
 
