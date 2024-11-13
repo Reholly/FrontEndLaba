@@ -13,20 +13,20 @@
     padding: 16px 34px 16px 34px;
 }
 
-.card-header {
+.card__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card-number {
+.card__number {
     font-family: Roboto, sans-serif;
     font-size: 64px;
     font-weight: bold;
     color: #fff;
 }
 
-.card-icon {
+.card__icon {
     position: relative;
     bottom: 24px;
     left: 12px; /* сделано так, потому что почему-то съезжает. по пикселям точь в точь */
@@ -37,17 +37,17 @@
     align-items: center;
 }
 
-.card-icon img {
+.card__icon img {
     max-width: 100%;
 }
 
-.card-title {
+.card__title {
     margin-top: 16px;
     font-family: Roboto, sans-serif;
     font-size: 32px;
 }
 
-.card-text {
+.card__text {
     width: 241px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -55,18 +55,19 @@
     margin-top: -16px;
 }
 
-.card-first-bg {
+/* Названия такие потому что я понятия не имею что это за цвета, я их не отличаю */
+.card__background-color-first {
     background-color: #F1C2B0;
 }
 
-.card-second-bg {
+.card__background-color-second {
     background-color: #F9EB98;
 }
 
-.card-third-bg {
+.card__background-color-third {
     background-color: #C0D9DD;
 }
 
-.card-fourth-bg {
+.card__background-color-fourth {
     background-color: #6975E8;
 }
